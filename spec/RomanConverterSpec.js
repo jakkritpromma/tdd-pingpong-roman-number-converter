@@ -14,7 +14,7 @@ describe("RomanConverter", function () {
     });
 
     it("When number is 2 result should be II", function () {
-        result = romanConvertor.convertToRoman(1)
+        result = romanConvertor.convertToRoman(2)
         expect(result).toEqual("II");
     });
 
