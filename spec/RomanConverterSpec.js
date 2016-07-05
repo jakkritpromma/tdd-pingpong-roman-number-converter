@@ -17,5 +17,10 @@ describe("RomanConverter", function () {
         result = romanConvertor.convertToRoman(2)
         expect(result).toEqual("II");
     });
+    
+    it("When number is 3 result should be III", function () {
+        result = romanConvertor.convertToRoman(2)
+        expect(result).toEqual("III");
+    });
 
 })
